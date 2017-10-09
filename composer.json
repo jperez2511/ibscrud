@@ -1,0 +1,20 @@
+{
+    "name": "icebearsoft/crud",
+    "description": "Make Crud",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Josue Perez",
+            "email": "jperez.chek@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+       "classmap": [
+        ],
+        "psr-4": {
+            "Icebearsoft\\Crud\\": "src"
+        }
+    }
+}
