@@ -9,7 +9,9 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {},
+     "require": {
+        "icebearsoft/crud": "dev-master"
+    },
     "autoload": {
        "classmap": [
         ],

@@ -4,7 +4,6 @@ namespace Icebearsoft\Kitukizuri;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Foundation\AliasLoader;
-use Illuminate\Routing\Router;
 
 class CrudServiceProvider extends ServiceProvider
 {
@@ -13,7 +12,7 @@ class CrudServiceProvider extends ServiceProvider
      *
      * @return void
      */
-    public function boot(Router $router)
+    public function boot()
     {        
         $this->loadViewsFrom(__DIR__.'/resources/views', 'crud');
         AliasLoader::getInstance()->alias('Crud','Icebearsoft\Crud\Crud');
