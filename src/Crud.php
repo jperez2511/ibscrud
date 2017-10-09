@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Crypt;
 use Illuminate\View\View;
 use Mockery\Exception;
 
-class CrudController extends Controller {
+class Crud extends Controller {
 	private $id       = '__id__';
 	private $model    = null;
 	private $titulo   = null;
